@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вітрина 1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Вітрина 1</h1>
+    </header>
+    <main>
+        <div class="showcase">
+            <img id="productImage" src="https://via.placeholder.com/300" alt="Продукт">
+            <div class="description">
+                <h2 id="productTitle" contenteditable="true">Назва продукту</h2>
+                <p id="productDescription" contenteditable="true">Опис продукту</p>
+            </div>
+        </div>
+        <form id="updateForm">
+            <label for="imageUrl">Посилання на зображення:</label>
+            <input type="url" id="imageUrl" required>
+            <button type="submit">Оновити зображення</button>
+        </form>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

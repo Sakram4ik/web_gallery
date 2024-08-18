@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+.showcase-link {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.showcase-link a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.showcase-link a:hover {
+    background-color: #555;
+}
+
+.showcase {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.showcase img {
+    max-width: 300px;
+    margin-right: 2rem;
+    background-color: transparent; /* Прибираємо сіру заливку */
+}
+
+.showcase .description {
+    flex: 1;
+}
+
+.showcase .description h2 {
+    margin-top: 0;
+}
+
+.showcase .description p {
+    margin-bottom: 1rem;
+}
+
+button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
